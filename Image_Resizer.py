@@ -12,6 +12,8 @@ def main():
     st.title("Image_Resizer")
     st.subheader("Just a Simple Image Resizer and Cropper")
 
+main()
+
 # Upload image file
 uploaded_file = st.file_uploader("Upload an image", type=["jpg", "jpeg", "png"])
 
